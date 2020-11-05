@@ -1,0 +1,27 @@
+body,
+html {
+  height: 100vh;
+  min-height: 350px;
+  margin: 0;
+}
+.bg {
+  background-image: url(../../assets/buy_bg.jpg);
+  background-color: black;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+  position: absolute;
+  left: 20vw;
+  top: 510vh;
+  list-style-type: none;
+  padding-top: 20vh;
+  li {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+}
