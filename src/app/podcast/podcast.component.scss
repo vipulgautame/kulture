@@ -2,7 +2,8 @@ body,
 html {
   height: 100vh;
   min-height: 350px;
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
 }
 .bg {
   background-image: url(../../assets/studio_bg.jpg);
@@ -11,24 +12,14 @@ html {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 0px;
   .text {
+    padding-left: 5vw;
+    padding-right: 5vw;
     text-align: center;
     padding-top: 20vh;
     h1 {
       font-size: large;
     }
-  }
-}
-
-ul {
-  position: absolute;
-  right: 20vw;
-  top: 10vh;
-  list-style-type: none;
-  padding-top: 20vh;
-  li {
-    text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
   }
 }

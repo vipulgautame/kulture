@@ -12,23 +12,12 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   .text {
+    padding-left: 5vw;
+    padding-right: 5vw;
     text-align: center;
     padding-top: 20vh;
     h1 {
       font-size: large;
     }
-  }
-}
-
-ul {
-  position: absolute;
-  right: 20vw;
-  top: 10vh;
-  list-style-type: none;
-  padding-top: 20vh;
-  li {
-    text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
   }
 }
